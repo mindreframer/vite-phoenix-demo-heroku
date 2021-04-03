@@ -47,7 +47,7 @@ defmodule Demo.MixProject do
       {:plug_cowboy, "~> 2.0"},
 
       # use our dev vite_phx
-      {:vite_phx, path: "../../"},
+      {:vite_phx, github: "mindreframer/vite_phx", ref: "4cb034bc4bb12c88f9bbcdac77aa1e434cbb480c"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
     ]
   end
