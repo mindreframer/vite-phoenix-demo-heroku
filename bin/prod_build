@@ -2,6 +2,8 @@
 
 set -e # fail quickly!
 
+export SECRET_KEY_BASE=otnXMg4w0wPYauNmSsg8Qx9upTJHVzMPSioJhe7+YHrcXfAKd+i6KZCv73SaoBdy
+
 # Initial setup
 mix deps.get --only prod
 MIX_ENV=prod mix compile
